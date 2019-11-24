@@ -20,5 +20,5 @@ setup(
         "ophiuchus_demo_api": ["default = demo_api.default:Default"],
         "ophiuchus_demo_web": ["default = demo_web.default:Default"],
     },
-    install_requires=["boto3==1.10.26", "ophiuchus"],
+    install_requires=["boto3>=1.10.26,<1.11.0", "ophiuchus"],
 )
