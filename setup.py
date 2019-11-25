@@ -18,7 +18,10 @@ setup(
     include_package_data=False,
     entry_points={
         "ophiuchus_demo_api": ["default = demo_api.default:Default"],
-        "ophiuchus_demo_web": ["default = demo_web.default:Default"],
+        "ophiuchus_demo_web": [
+            "default = demo_web.default:Default",
+            "debug_print = demo_web.debug_print:Debug",
+        ],
     },
     install_requires=["boto3>=1.10.26,<1.11.0", "ophiuchus"],
 )
