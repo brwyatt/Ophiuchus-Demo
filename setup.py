@@ -23,5 +23,5 @@ setup(
             "debug_print = demo_web.debug_print:Debug",
         ],
     },
-    install_requires=["boto3>=1.10.26,<1.11.0", "ophiuchus"],
+    install_requires=["boto3>=1.10.0,<1.11.0", "ophiuchus"],
 )
