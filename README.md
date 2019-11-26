@@ -13,6 +13,8 @@ Demo stack/site using Ophiuchus
    `source env/bin/activate`
 3. Install for development
    `pip3 install -r requirements-dev.txt`
+4. Install pre-commit hooks:
+   `pre-commit install`
 
 ### Development
 
