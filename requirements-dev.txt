@@ -1,3 +1,4 @@
 -e .
+-r requirements.txt
 aiohttp>=3.6.2,<3.7.0
 pre-commit>=1.20.0,<2.0.0

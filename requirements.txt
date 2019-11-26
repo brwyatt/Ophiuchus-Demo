@@ -1,2 +1,2 @@
--e .
+.
 git+ssh://git@github.com/brwyatt/Ophiuchus.git@master#egg=ophiuchus
