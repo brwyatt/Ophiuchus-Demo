@@ -23,7 +23,7 @@ class Default(Handler):
                     "\n".join(
                         [
                             f'<li><a href="{endpoint}">{name}</a></li>'
-                            for name, endpoint in self.config.endpoint_map.items()
+                            for name, endpoint in self.config.get_endpoints().items()
                         ],
                     ),
                     "</ul>",
