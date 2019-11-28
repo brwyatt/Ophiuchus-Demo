@@ -1,2 +1,2 @@
 .
-git+ssh://git@github.com/brwyatt/Ophiuchus.git@master#egg=ophiuchus
+https://github.com/brwyatt/Ophiuchus/archive/master.tar.gz#egg=ophiuchus
